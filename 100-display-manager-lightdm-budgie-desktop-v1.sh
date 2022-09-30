@@ -23,5 +23,5 @@ echo "Remove anything you do not like from the installed applications"
 #sudo pacman -R gnome-backgrounds --noconfirm
 
 echo "################################################################"
-echo "###################    T H E   E N D      ######################"
+echo "###################    T H E   E N D      ###############Mehdi##"
 echo "################################################################"
