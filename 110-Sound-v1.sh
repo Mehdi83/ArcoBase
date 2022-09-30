@@ -13,8 +13,7 @@ sudo pacman -S alsa-utils alsa-plugins alsa-firmware alsa-lib --noconfirm --need
  sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-ugly gstreamer --noconfirm --needed
 
 
-
-
+yay spotify-1 --noconfirm --needed
 
 
 
