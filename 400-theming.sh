@@ -16,7 +16,7 @@ sudo pacman -S variety  --noconfirm  --needed  #wallpaper manager
 
 sudo pacman -S arc-gtk-theme --noconfirm  --needed 
 
-sudo pacman -S conky #conky-lua-archer conky-manager
+sudo pacman -S --noconfirm --needed conky #conky-lua-archer conky-manager
 
 echo "AUR installations"
 
