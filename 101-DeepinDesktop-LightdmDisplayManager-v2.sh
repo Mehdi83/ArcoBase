@@ -12,6 +12,8 @@ set -e
 #update 
 # then run update in terminal 
 
+sudo pacman -S archlinux-keyring
+
 sudo pacman -Syyu
 
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed
