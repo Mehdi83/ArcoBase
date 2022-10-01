@@ -24,9 +24,7 @@ sudo pacman -S deepin-desktop --noconfirm --needed
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
 
-echo "Remove anything you do not like from the installed applications"
-
-#sudo pacman -R gnome-backgrounds --noconfirm
+sudo pacman -S intel-uncode --noconfirm
 
 echo "################################################################"
 echo "###################    T H E   E N D      ###############Mehdi##"

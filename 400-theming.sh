@@ -18,7 +18,9 @@ sudo pacman -S arc-gtk-theme --noconfirm  --needed
 
 sudo pacman -S --noconfirm --needed conky #conky-lua-archer conky-manager
 
-echo "AUR installations"
+
+sudo pacman -S sardi-icons  --noconfirm --needed
+sudo pacman -S surfn-mint-y-icons-git --noconfirm --needed
 
  
 

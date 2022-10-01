@@ -22,6 +22,9 @@ sudo systemctl set-default graphical.target
 
 sudo pacman -S pamac pamac-gtk --noconfirm --needed
 
+sudo pacman -S intel-uncode --noconfirm
+
+
 echo "################################################################"
 echo "###################    T H E   E N D      ###############Mehdi##"
 echo "################################################################"
