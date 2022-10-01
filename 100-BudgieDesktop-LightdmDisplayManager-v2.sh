@@ -7,8 +7,8 @@ set -e
 # --needed =  Do not reinstall /if is up-to-date 
 
 
-mirror
-update 
+#mirror
+#update 
 sudo pacman -Syyu
 
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed
