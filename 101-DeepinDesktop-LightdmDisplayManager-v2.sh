@@ -7,8 +7,11 @@ set -e
 # --needed =  Do not reinstall /if is up-to-date 
 
 
-mirror
-update 
+#mirror
+# run mirror in terminal first
+#update 
+# then run update in terminal 
+
 sudo pacman -Syyu
 
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed
