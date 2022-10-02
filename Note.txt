@@ -1,0 +1,7 @@
+
+
+
+
+git clone -n http://github.com/Mehdi/RepoName.git --depth 1 # just one file
+cd to repro
+git checkout HEAD filename
