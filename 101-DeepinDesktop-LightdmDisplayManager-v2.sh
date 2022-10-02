@@ -26,6 +26,9 @@ sudo systemctl set-default graphical.target
 
 sudo pacman -S intel-uncode --noconfirm
 
+mv .tmux.confi ~
+mv variety.conf ~/.config/variety
+
 echo "################################################################"
 echo "###################    T H E   E N D      ###############Mehdi##"
 echo "################################################################"
