@@ -12,7 +12,7 @@ set -e
 #update 
 # then run update in terminal 
 
-sudo pacman -S archlinux-keyring
+sudo pacman -S archlinux-keyring  --noconfirm --needed
 
 sudo pacman -Syyu
 
@@ -27,7 +27,7 @@ sudo systemctl set-default graphical.target
 sudo pacman -S intel-uncode --noconfirm
 
 
-mv .tmux.confi ~
+mv .tmux.conf ~
 mv variety.conf ~/.config/variety
 
 sudo pacman -S deepin-terminal deepin-terminal-gtk --noconfirm --needed
