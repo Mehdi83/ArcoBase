@@ -27,7 +27,7 @@ sudo systemctl set-default graphical.target
 sudo pacman -S intel-uncode --noconfirm
 
 
-mv .tmux.conf ~
+cp  .tmux.conf ~
 mv variety.conf ~/.config/variety
 
 sudo pacman -S deepin-terminal deepin-terminal-gtk --noconfirm --needed
