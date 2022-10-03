@@ -28,7 +28,8 @@ sudo pacman -S intel-uncode --noconfirm
 
 
 cp  .tmux.conf ~
-mv variety.conf ~/.config/variety
+mkdir -p  ~/.config/variety
+cp variety.conf ~/.config/variety
 
 sudo pacman -S deepin-terminal deepin-terminal-gtk --noconfirm --needed
 
