@@ -43,3 +43,8 @@ echo
 }
 
 game
+
+
+#notify-send  "My name is bash and I rock da house"  
+#zenity --info --text="Calculation complete"
+
