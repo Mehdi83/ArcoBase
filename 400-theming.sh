@@ -16,7 +16,7 @@ sudo pacman -S variety  --noconfirm  --needed  #wallpaper manager
 
 sudo pacman -S arc-gtk-theme --noconfirm  --needed 
 
-sudo pacman -S --noconfirm --needed conky #conky-lua-archer conky-manager
+sudo pacman -S --noconfirm --needed conky conky-lua-archer conky-manager arcolinux-conky-collection-git
 
 
 sudo pacman -S sardi-icons  --noconfirm --needed

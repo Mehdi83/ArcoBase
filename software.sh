@@ -11,7 +11,7 @@ sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed krita
 sudo pacman -S --noconfirm --needed kdenlive
 sudo pacman -S --noconfirm --needed obs-studio
-
+sudo pacman -S --noconfirm --needed gnome-boxes
 
 echo "################################################################"
 echo "###################    Installation Done  ###############Mehdi##"
