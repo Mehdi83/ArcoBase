@@ -42,7 +42,7 @@ fi
 #git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions.git
 
-sed -i -e '/plugins=(/s/$/ zsh-autosuggestions/' ~/.zshrc
-
-source ~/.zshrc
+#sed -i -e '/plugins=(/s/$/ zsh-autosuggestions zsh-syntax-highlighting/' ~/.zshrc
+echo -e "plugins=(zsh-autosuggestions zsh-syntax-highlighting)" >>   ~/.zshrc
