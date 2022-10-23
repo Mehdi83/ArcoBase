@@ -1,14 +1,5 @@
 #!/bin/bash
 #set -e
-##################################################################################################################
-# Author 	: 	Erik Dubois
-# Website	:	https://www.archmerge.info
-# Website	:	https://www.archmerged.com
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-##################################################################################################################
 
 
 # checking if I have the latest files from github
