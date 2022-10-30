@@ -1,10 +1,5 @@
-#! /bin/bash
+#! /bin/bash  
 
-#var=$(tput blink;"My name is bash and I rock da house"; tput tgr0)
- 
-
- #medallion-gold.png
-#zenity --info --text="Calculation complete"
 
 dati=`date +%m-%d-%Y-%H-%M-%S`
 
@@ -39,16 +34,17 @@ fi
 
 
 sleep 1
-deepin-terminal # --command echo "BACK UP IS READY"
+kitty 
 
-#var="BACK UP IS READY"
-#echo $var
+
 sleep 1
 notify-send  "BACK UP IS READY"  -i ~/.config/neofetch/arcolinux-green.png
  
 
 
-echo "####### BAKI10 ########" 
+
+
+# echo "####### BAKI10 ########" 
 
 aBaki=(~/BackUp/baki*)
 dBaki=$(("${#aBaki[@]}-5"))
@@ -59,10 +55,7 @@ then
  rm -rf $dli
 fi
 
-
-
-
-echo "####### i3Block ########" 
+#echo "####### i3Block ########" 
 
 ai3Block=(~/BackUp/i3Block*)
 di3Block=$(("${#ai3Block[@]}-5"))
@@ -73,8 +66,7 @@ then
  rm $dli
 fi
 
-
-echo "####### i3Conf ########" 
+#echo "####### i3Conf ########" 
 
 ai3Conf=(~/BackUp/i3Conf*)
 di3Conf=$(("${#ai3Conf[@]}-5"))
@@ -85,8 +77,7 @@ then
  rm $dli
 fi
 
-
-echo "####### i3ConPoly ########" 
+#echo "####### i3ConPoly ########" 
 
 ai3ConfPoly=(~/BackUp/i3ConfPoly*)
 di3ConfPoly=$(("${#ai3ConfPoly[@]}-5"))
@@ -97,8 +88,7 @@ then
  rm $dli
 fi
 
-
-echo "####### i3Picom ########" 
+#echo "####### i3Picom ########" 
 
 ai3Picom=(~/BackUp/i3Picom*)
 di3Picom=$(("${#ai3Picom[@]}-5"))
@@ -109,8 +99,7 @@ then
  rm $dli
 fi
 
-
-echo "####### i3Status ########" 
+#echo "####### i3Status ########" 
 
 ai3Stat=(~/BackUp/i3Status*)
 di3Stat=$(("${#ai3Stat[@]}-5"))
@@ -121,8 +110,7 @@ then
  rm $dli
 fi
 
-
-echo "####### PolyConf########" 
+#echo "####### PolyConf########" 
 
 aPolyC=(~/BackUp/PolyConf*)
 dPolyC=$(("${#aPolyC[@]}-5"))
@@ -133,9 +121,7 @@ then
  rm $dli
 fi
 
-
-
-echo "####### PolyLuncher########"
+#echo "####### PolyLuncher########"
 
 aPolyL=(~/BackUp/PolyLauncher*)
 dPolyL=$(("${#aPolyL[@]}-5"))
